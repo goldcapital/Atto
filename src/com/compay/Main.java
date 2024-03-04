@@ -1,9 +1,8 @@
-import controller.AuthController;
-import db.DataBase;
-import db.InitDataBase;
+import com.compay.controller.AuthController;
+import com.compay.db.DataBase;
+import com.compay.db.InitDataBase;
 
 public class Main {
-
     public static void main(String[] args) {
         DataBase.initTable();
 
